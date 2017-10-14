@@ -11,13 +11,7 @@ const avatar = (req, res, next) => {
     req.position = position;
     req.description = getJson(position);
     next();
-}
-
-const insanity = (req, res, next) => {
-    const insanity = req.cookies.insanity || "1";
-    req.insanity = insanity;
-    next();
-}
+};
 
 const faves = (req, res, next) => {
     const faveFood = req.cookies.food || "Tiramisu";
@@ -34,8 +28,4 @@ const faves = (req, res, next) => {
 };
 
 
-module.exports = {
-	avatar,
-	faves,
-	insanity
-}
+module.exports = {avatar, faves};

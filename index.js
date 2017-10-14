@@ -1,6 +1,3 @@
-
-const content = require('./content');
-
 const express = require("express");
 const app = express();
 
@@ -42,25 +39,23 @@ const hbs = exphbs.create({
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
-
+const content = require('./content');
 app.use(content.avatar);
 app.use(content.faves);
-app.use(content.insanity);
 
 app.get('/', (req , res) => {
     res.render('index', 
       {
         description: req.description,
-        insanity: req.cookies.insanity,
-        color: req.cookies.color,
-        food: req.cookies.food,
-        position: req.cookies.position     
+        insanity: req.cookies.insanity || "1",
+        color: req.cookies.color || "Blue",
+        food: req.cookies.food || "Tiramisu",
+        position: req.cookies.position || "Good"     
       }
     );     
 });
 
 app.post('/', (req, res) => {
-    
     res.cookie("food", req.body.food);
     res.cookie("color", req.body.colorPicker);
     res.cookie("insanity", req.body.insanity);
@@ -72,6 +67,6 @@ app.post('/', (req, res) => {
 
 app.use(express.static(__dirname + "/public"));
 
-app.listen(4300, () => {
-  console.log("Listening on localhost:4300!");
+app.listen(4400, () => {
+  console.log("Listening on localhost:4400!");
 });
