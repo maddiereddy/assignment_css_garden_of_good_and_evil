@@ -1,0 +1,229 @@
+.navbar-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: darkturquoise;
+}
+
+.navbar-container p {
+    color: black;
+    font-family: 'Clicker Script';
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: darkturquoise;
+}
+
+/* form css */
+
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.form-container div {
+    margin: 10px;
+}
+
+.form-well-Blue {
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-well-Green {
+    background-color: forestgreen;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-well-Red {
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-well-Pink {
+    background-color: palevioletred;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+input[type=range] {
+    width: 150px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    width: 100px;
+}
+
+
+/* Description section */
+.description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+@keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.info-Evil {
+    animation: myfirst 5s linear 2s infinite alternate;
+    width: 100%;
+}
+
+.info-Good {
+    width: 100%;
+}
+
+.well {
+    background: royalblue;  
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.well h2 {
+    font-size: 60px;
+    font-family: 'Clicker Script';
+    font-weight: bold;
+}
+
+
+.well p {
+    font-size: 18px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 10px 40px;
+  font-size: 18px;
+}
+
+.header {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.header h3 {
+    font-size: 40px;
+    font-family: 'Georgia',  serif;
+}
+
+.content-Green {
+    text-align: center;
+    width: 100%;
+    background-color: forestgreen;
+}
+
+.content-Blue {
+    text-align: center;
+    width: 100%;
+    background-color: royalblue;
+}
+
+.content-Red {
+    text-align: center;
+    width: 100%;
+    background-color: darkred;
+}
+
+.content-Pink {
+    text-align: center;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+
+.list-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.likes h3, .dislikes h3{
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Clicker Script';
+}
+
+.bio {
+    margin-top: 10px;
+}
+
+.job-title {
+    margin: 50px 0px;
+}
+
+.job-title h3 {
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Clicker Script';
+}
+
+
+.insanity-1,  .insanity-1 h3, .insanity-1 h2{
+    transform: skew(0deg);
+}
+
+.insanity-2,  .insanity-2 h3, .insanity-2 h2{
+    transform: skew(10deg);
+}
+
+.insanity-3,  .insanity-3 h3, .insanity-3 h2{
+    transform: skew(45deg);
+}
+
+.insanity-4,  .insanity-4 h3, .insanity-4 h2{
+    transform: rotate(225deg);
+}
+
+.insanity-5 {
+    transform: rotate(225deg);
+    background-color: black;
+}
+
+.insanity-5 h3{
+    transform: rotate(225deg);
+    background-color: red;
+}
+
+.insanity-5 h2{
+    transform: rotate(225deg);
+    background-color: yellow;
+}

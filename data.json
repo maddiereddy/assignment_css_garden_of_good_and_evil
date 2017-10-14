@@ -1,0 +1,46 @@
+{
+    "Good": {
+        "likes": ["Flowers", "Babies", "Laughter", "Music", "Kindness", "Honesty"],
+        "dislikes": ["Trump", "Narcissism", "Selfishness", "Stupidity", "Fire", "Brimstone", "Sloth", "Greed"],
+        "biography" : "I am a happy, cheerful and optimistic person who loves learning new things",
+        "resume": {
+            "Reader of Books" : {
+                "para1": "All Agatha Christie books",
+                "para2": "All Ian Rankin books",
+                "para3": "Catch-22"
+            },
+            "Binge Watcher" : {
+                "para1": "Game of Thrones",
+                "para2": "Breaking Bad",
+                "para3": "Curb Your Enthusiasm"
+            },
+            "Dreamer": {
+                "para1": "Getting the perfect job, with the perfect team and perfect boss",
+                "para2": "Living in a lake house",
+                "para3": "Travelling the world"
+            }
+        }
+    },
+    "Evil": {
+        "likes": ["Trump", "Narcissism", "Selfishness", "Stupidity", "Fire", "Brimstone", "Sloth", "Greed"],
+        "dislikes": ["Flowers", "Babies", "Laughter", "Music", "Kindness", "Honesty"],
+        "biography" : "I am a Trumper! So much winning, HUGE!! I'm so incredible, you're so SAD!!!",
+        "resume": {
+            "Breitbart Journo" : {
+                "para1": "Dream up evil stories to plant in media",
+                "para2": "Play toadie to Steve Bannon",
+                "para3": "Attend Trump rallies"
+            },
+            "Russian Bot" : {
+                "para1": "Planted stories about HRC in social media",
+                "para2": "Counted my roubles",
+                "para3": "Laughed maniacally"
+            },
+            "Wicked Witch of the East": {
+                "para1": "Brewed evil broth",
+                "para2": "Terrorized poor Dorothy and Toto",
+                "para3": "Cackled crazily" 
+            }
+        }
+    }
+}
